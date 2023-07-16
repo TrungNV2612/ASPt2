@@ -13,7 +13,7 @@ namespace ASPt2
             UserManager userManager = new UserManager();
             User user;
 
-            app.MapGet("/", () => "Hello World!");
+            app.MapGet("/", () => "Hello World");
 
 
             //app.MapGet("/hello", (HttpRequest request) =>
